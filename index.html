@@ -21,7 +21,7 @@
       <div class="eight wide column">
         <h1>SWAPI Exercises</h1>
         <h2>Episode 4 Opening Crawl</h2>
-        <button id="crawlBtn">Get Opening Crawl</button>
+        <button id="crawlBtn" onclick="getOpeningCrawl()">Get Opening Crawl</button>
         <div id="crawlDiv"></div>
 
         <h2>Planet Search</h2>
@@ -32,14 +32,16 @@
         <div id="planetData"></div>
 
         <h2>Find These Droids:</h2>
-        <div id="droid-2"></div>
         <div id="droid-3"></div>
+        <div id="droid-3-btn-planet"></div>
+        <div id="droid-4"></div>
+        <div id="droid-4-btn-planet"></div>
       </div>
 
       <div class="eight wide column">
         <h1>Numbers API Exercises</h1>
         <h2>Number One</h2>
-        <button id="number-one">Facts About 1</button>
+        <button id="number-one" onclick="fetchTrivia(1)">Facts About 1</button>
         <div id="one-facts">
 
         </div>
